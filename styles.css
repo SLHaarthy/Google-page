@@ -1,0 +1,143 @@
+body {
+    background-color: #333;
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 0.9em;
+
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+#gl{
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+}
+
+#mi{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+#le{
+    align-items: end;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/productsa...) format('woff2');
+}
+
+#go{
+    font-family: arial, sans-serif ;
+    font-size: 5.5em;
+}
+
+.inputcontainer {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 38px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+}
+
+
+
+.inputcontainer > input{
+    background-color: #333;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+  
+
+.buttoncontainer {
+    padding-top: 53px;
+
+}
+
+button {
+    background-color: #444;
+    border-radius: 5px;
+    border: none;
+    height: 36px;
+    padding: 0 20px;
+    margin: 0 40px;
+}
+
+.languages{
+    display: flex;
+    margin-top: 30px;
+}
+
+.languages li{
+    list-style: none;
+    margin: 0 5px;
+    font-size: 13px;
+}
+
+
+
+footer{
+    background-color: #222;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+
+}
+
+#con {
+    padding: 15px 25px;
+    border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+#footer-left {
+    display: flex;
+    justify-self: start;
+    padding-left: 20px;
+    align-items: center;
+}
+
+#footer-right{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    align-items: center;
+}
